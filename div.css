@@ -1,0 +1,467 @@
+
+/* Navbar Container */
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar_list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px; /* Spacing between menu items */
+}
+
+/*footer icons */
+ .social-icon {
+            width: 40px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .wa { background: #25d366; }
+        .fb { background: #3b5998; }
+        .li { background: #0077b5; }
+        .ig { background: #e4405f; }
+        .yt { background: #cd201f; }
+        
+
+/* Link Styling */
+.navbar_list li a {
+    text-decoration: none;
+    color: #350987; /* Deep purple matching your theme */
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between text and icon */
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Animated Underline Effect */
+.navbar_list li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #7b5fc2;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.4s;
+}
+
+.navbar_list li a:hover::after {
+    width: 100%;
+}
+
+.navbar_list li a:hover {
+    color: #7b5fc2;
+}
+
+/* Sign In Button Styling */
+.signin-btn a {
+    background: #7b5fc2;
+    color: white !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: transform 0.2s, background 0.3s !important;
+}
+
+.signin-btn a:hover {
+    background: #4b2a89;
+    transform: translateY(-2px);
+}
+
+.signin-btn a::after {
+    display: none; /* Remove underline for button */
+}
+
+/* Icon size adjustment */
+.navbar_list i {
+    font-size: 1.1rem;
+}
+.testimonial-track {
+    display: flex;
+    gap: 20px;
+    transition: transform .5s ease;
+}
+.testimonial-wrapper {
+    overflow: hidden;
+}
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Lora", serif;
+}
+/* NAV STRUCTURE */
+nav {
+    padding: 15px 2%; /* Adjusted padding for better edge-to-edge look */
+    display: flex;
+    justify-content: space-between; /* This pushes logos to the sides and links to center */
+    align-items: center;
+    background: transparent;
+}
+
+/* LOGO */
+.logo-link img {
+    width: 100px; /* Slightly smaller to fit the three-column layout */
+    transition: transform .4s ease;
+    display: block;
+}
+
+/* LINKS CONTAINER */
+.nav-links {
+    flex: 2; /* Takes up more space in the middle */
+    text-align: center; /* Centers the button group */
+}
+
+/* LI - ADJUST SPACING HERE */
+.navbar_list li {
+    list-style: none;
+    display: inline-block;
+    /* CHANGE THIS VALUE TO INCREASE/DECREASE SPACE BETWEEN BUTTONS */
+    margin: 0 10px; 
+}
+
+/* Ensure the links don't wrap weirdly on smaller screens */
+.navbar_list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+/*for tablet/ ipad */
+@media (max-width: 992px) {
+
+    nav {
+        flex-wrap: wrap;
+        padding: 18px 5%;
+    }
+
+    .nav-links {
+        width: 100%;
+        text-align: center;
+        margin-top: 14px;
+    }
+
+    .navbar_list li {
+        margin: 6px;
+    }
+
+    .navbar_list li a {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+
+    nav img {
+        width: 110px;
+    }
+
+}
+
+
+/* for mobile phone */
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 16px 4%;
+    }
+
+    nav img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        width: 100%;
+    }
+
+    .navbar_list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: stretch;
+    }
+
+    .navbar_list li {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar_list li a {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .signin-btn {
+        margin-left: 0;
+        margin-top: 6px;
+    }
+}
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #008CBA 0%, #005f7a 100%);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --accent-color: #008CBA;
+  --text-main: #2d3436;
+  --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Container */
+.mycontainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 50px 20px;
+  background-color: #f4f7f9; /* Soft background to make white cards pop */
+}
+
+/* Advanced Card Styling */
+.mycontainer > div {
+  flex: 1;
+  padding: 30px;
+  border-radius: 20px;
+  background: var(--card-bg);
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; /* Clips the decorative gradient bar */
+  transition: var(--transition-smooth);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Top Decorative Accent Bar */
+.mycontainer > div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: var(--primary-gradient);
+  opacity: 0;
+  transition: var(--transition-smooth);
+}
+
+/* Hover effect */
+.mycontainer > div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 140, 186, 0.15);
+  border-color: var(--accent-color);
+}
+
+.mycontainer > div:hover::before {
+  opacity: 1; /* Shows the colored bar on hover */
+}
+
+/* Advanced Headings */
+.mycontainer h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* List Styling */
+.mycontainer ul {
+  list-style: none; /* Removing default dots */
+  padding-left: 0;
+}
+
+.mycontainer li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #636e72;
+}
+
+/* Custom Checkmark Icon using CSS */
+.mycontainer li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+
+.container {
+    max-width: 1500px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left img {
+    width: 600px;
+    height: 210px;
+    border-radius: 15px;
+}
+
+.right h1 {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.right p {
+    font-size: 5px;
+    color: #555;
+}
+
+.right h2 {
+    margin-top: 1px;
+}
+
+.list {
+    margin: 10px 0;
+}
+
+.list li {
+    list-style: none;
+    margin: 11px 0;
+    font-size: 15px;
+}
+
+.list li::before {
+    content: "✔";
+    color: #7bb600;
+    margin-right: 5px;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;          
+  margin-top: 5px;      
+}
+/* --- SHARED BASE STYLES --- */
+/* This prevents repeating code; apply these to all buttons */
+.dbtn1, .dbtn2, .dbtn3, .dbtn4 {
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.dbtn1:hover, .dbtn2:hover, .dbtn3:hover, .dbtn4:hover {
+  transform: translateY(-3px);
+  letter-spacing: 0.5px;
+}
+
+.dbtn1:active, .dbtn2:active, .dbtn3:active, .dbtn4:active {
+  transform: translateY(1px);
+}
+
+/* --- THE SHIMMER EFFECT --- */
+.dbtn1::after, .dbtn2::after, .dbtn3::after, .dbtn4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: 0.5s;
+}
+
+.dbtn1:hover::after, .dbtn2:hover::after, .dbtn3:hover::after, .dbtn4:hover::after {
+  left: 100%;
+}
+
+/* --- UNIQUE BUTTON COLORS --- */
+
+/* 1st Button: UGC API 2025 (Royal Blue) */
+.dbtn1 {
+  background-color: #1A73E8;
+  box-shadow: 0 4px 15px rgba(26, 115, 232, 0.3);
+}
+.dbtn1:hover {
+  background-color: #1557b0;
+  box-shadow: 0 8px 25px rgba(26, 115, 232, 0.5);
+}
+
+/* 2nd Button: BSUSC API 2018 (Deep Purple) */
+.dbtn2 {
+  background-color: #7E57C2;
+  box-shadow: 0 4px 15px rgba(126, 87, 194, 0.3);
+}
+.dbtn2:hover {
+  background-color: #5e35b1;
+  box-shadow: 0 8px 25px rgba(126, 87, 194, 0.5);
+}
+
+/* 3rd Button: BSUSC API 2026 (Teal) */
+.dbtn3 {
+  background-color: #00A8B5;
+  box-shadow: 0 4px 15px rgba(0, 168, 181, 0.3);
+}
+.dbtn3:hover {
+  background-color: #07a8b4;
+  box-shadow: 0 8px 25px rgba(11, 189, 202, 0.5);
+}
+
+/* 4th Button: DOWNLOAD API SUITE (Original Red) */
+/* 4th Button: DOWNLOAD API SUITE (Animated Red) */
+.dbtn4 {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px; /* Matches the rounded style in your screenshot */
+    font-weight: bold;
+    display: inline-block;
+    
+    /* 1. Expand the background size so it can move */
+    background: linear-gradient(270deg, #ff0000, #ff9900, #00cc66, #0066ff, #9900ff);
+    background-size: 400% 400%; 
+    
+    /* 2. Run the animation */
+    animation: gradientMove 5s ease infinite;
+    
+    /* 3. Shadow to match your screenshot style */
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.dbtn4:hover {
+    transform: scale(1.05); /* Slight pop effect on hover */
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSUSC 2026 | Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --header-gradient: linear-gradient(90deg, #4b5d16 0%, #7e22ce 40%, #9333ea 100%);
+            --button-blue: #2563eb;
+            --whatsapp-green: #25D366;
+            --bg-light: #f3f4f6;
+            --text-dark: #1f2937;
+            --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* --- REDUCED HEADER AREA --- */
+        .header-banner {
+            width: 100%;
+            background: var(--header-gradient);
+            padding: 30px 20px 60px; /* Reduced top padding */
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* --- BIGGER LOGO SIZE --- */
+        .logo-container {
+            background: white;
+            width: 120px; /* Increased from 80px */
+            height: 120px; /* Increased from 80px */
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            padding: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.95;
+            max-width: 800px;
+            margin: 0 auto;
+            font-weight: 400;
+        }
+
+        /* --- MAIN CONTENT CARD --- */
+        .content-card {
+            background: white;
+            width: 90%;
+            max-width: 700px;
+            margin: -30px 20px 40px; 
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            z-index: 10;
+            text-align: center;
+        }
+
+        .section-title {
+            color:#2563eb; 
+            border-bottom: 2px solid #e5e7eb;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #4b5563;
+            margin-bottom: 30px;
+        }
+
+        /* --- WHATSAPP BUTTON --- */
+        .whatsapp-btn {
+            background-color: var(--whatsapp-green);
+            color: white;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 15px -3px rgba(37, 211, 102, 0.3);
+            width: 100%;
+            border: none;
+            cursor: pointer;
+        }
+
+        .whatsapp-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 20px -5px rgba(37, 211, 102, 0.4);
+            filter: brightness(1.05);
+        }
+
+        /* --- VIDEO CONTAINER --- */
+        .video-wrapper {
+            margin-top: 35px;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+        }
+
+        iframe {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border: none;
+            display: block;
+        }
+
+        .server-status {
+            margin-top: 25px;
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            color: #6b7280;
+            letter-spacing: 0.5px;
+        }
+
+        #time-display {
+            color: var(--button-blue);
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .header-banner { padding: 20px 15px 50px; }
+            .logo-container { width: 100px; height: 100px; }
+            h1 { font-size: 1.4rem; }
+            .content-card { padding: 30px 20px; }
+            .whatsapp-btn { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-banner">
+        <div class="logo-container">
+            <img src="HEWORLDlogo.webp" alt="H.E. WORLD Logo">
+        </div>
+        <h1>BSUSC Calculator Coming Soon</h1>
+        <div class="subtitle">
+            The most accurate merit calculation tool for Assistant Professor recruitment.
+        </div>
+    </header>
+
+    <main class="content-card">
+        <h2 class="section-title">System Update</h2>
+        
+        <p class="description">
+            Our specialized merit calculator is currently being updated for the 2026 cycle. <strong>Join our whatsapp group for current updates.</strong> 
+        </p>
+
+        <a href="https://chat.whatsapp.com/Cz17dIuPK5k9Rsww6uGcRT?mode=gi_t" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp fa-lg"></i> JOIN WHATSAPP GROUP
+        </a>
+
+        <div class="video-wrapper">
+            <iframe width="110" height="299" src="https://www.youtube.com/embed/995OtiJNNtg" title="असिस्टेंट प्रोफेसर एवं प्रमोशन हेतु API स्कोर बढ़ाने का सुनहरा मौका || #bsusc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="server-status">
+            <i class="fas fa-satellite-dish"></i> Live Monitoring: <span id="time-display"></span> | Status: <span style="color: #059669; font-weight: bold;">Active</span>
+        </div>
+    </main>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('time-display').innerText = now.toLocaleTimeString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+
+</body>
+</html>

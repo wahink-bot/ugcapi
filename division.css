@@ -1,0 +1,58 @@
+/*Navigation Bar*/
+/* BASIC RESET FEEL */
+* {
+    box-sizing: border-box;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* LOGO */
+nav img {
+    width: 120px;
+    transition: transform .4s ease;
+}
+
+nav img:hover {
+    transform: scale(1.06);
+}
+
+/* NAV STRUCTURE */
+nav {
+    padding: 20px 5%; 
+    display: flex;
+    justify-content: space-between; /* Pushes logos to ends, links to center */
+    align-items: center;
+    background: transparent;
+    width: 100%;
+}
+
+/* LOGO STYLING */
+.logo-link img {
+    width: 110px; /* Adjusted size for symmetry */
+    transition: transform .4s ease;
+    display: block;
+}
+
+.logo-link:hover img {
+    transform: scale(1.06);
+}
+
+/* LINKS CONTAINER */
+.nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Keeps the list centered between logos */
+}
+
+.navbar_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    white-space: nowrap; /* Prevents buttons from jumping to a second line */
+}
+
+/* BUTTON SPACING */
+.navbar_list li {
+    list-style: none;
+    /* Adjust the 8px value below to increase/decrease gaps */
+    margin: 0 8px; 
+}

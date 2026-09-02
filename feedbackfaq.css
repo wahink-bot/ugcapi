@@ -1,0 +1,351 @@
+
+/* FORM */
+#feedback-form {
+    background:linear-gradient(135deg, #5f4bd8, #9b8cf2);
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+#feedback-form:hover{
+ transform: translateY(-6px);
+}
+button {
+    background: #5f4bd8;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: #4a38c7;
+    transform: translateY(-2px);
+}
+
+.success {
+    margin-top: 15px;
+    color: green;
+    display: none;
+}
+
+/* INFO */
+.contact-info {
+    display: grid;
+    gap: 20px;
+}
+
+.info-card {
+    background:  linear-gradient(135deg, #5f4bd8, #9b8cf2, #b3a8f1);
+    color:white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+    transition: .3s;
+}
+
+.info-card:hover {
+    transform: translateY(-6px);
+}
+
+.info-card h3 {
+    margin-bottom: 8px;
+    color: white;
+}
+
+footer {
+    clear: both;            /* Important: Prevents side-by-side floating elements from overlapping */
+    width: 100%;            /* Spans the full width of the window */
+    background-color: #222; /* Dark professional color */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;     /* Ensures it stays in the normal document flow */
+    margin-top: 50px;       /* Pushes it away from the content above */
+}
+
+
+
+/* Make the 'Send Us a Message' card wider */
+#feedback-form {
+    flex: 2; /* This tells it to take up twice as much space as the side column */
+    max-width: 500px; /* Prevents it from getting too thin on smaller screens */
+    background-color: #7E57C2; /* Matches your purple theme */
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* Keep the right column at a fixed proportional size */
+.input-group {
+    flex: 1; /* Takes up one 'unit' of space */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.message-card, .info-column {
+    margin-top: 0 !important;
+}
+.feedback-faq{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:larger;
+    font-weight: 200;
+    color: #7E57C2;
+    font-style:oblique;
+    transition: all 0.3s ease;
+}
+.feedback-faq:hover{
+transform: translateY(-20%);
+}
+/* table 2  */
+/* --- CONTAINER STYLING --- */
+#feedback-form {
+    background-color: #7E57C2; /* Purple from your screenshots */
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px; /* Rounded corners like image 117 */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- LIST & LAYOUT --- */
+.feedback-form-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feedback-form-ul li {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column; /* Stacks label over input */
+}
+
+/* --- LABEL/CATEGORY STYLING --- */
+.category {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 15px;
+    display: block;
+}
+
+.required {
+    color: #ff8a80; /* Brighter red to stand out on purple */
+    margin-right: 4px;
+}
+
+/* --- INPUTS, SELECT, & TEXTAREA --- */
+.feedback-input input, 
+.feedback-input select, 
+.feedback-input textarea,
+.feedback-input-dropdown input,
+.feedback-input-dropdown select,
+.feedback-input-dropdown textarea {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px; /* Smooth rounded corners */
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+/* Word Count text */
+#wordCount, p {
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+/* --- SUBMIT BUTTON --- */
+#submit-btn {
+    background-color: #5E35B1; /* Darker purple for the button */
+    color: white;
+    padding: 12px 35px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+#submit-btn:hover {
+    background-color: #4527A0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Utility to hide the bot-trap input */
+.hidden, #alt-email {
+    display: none;
+}
+/*SUBJECTTTTTTTTTTTTTTTTTTTTT */
+/* Container for the dropdown to handle the custom arrow positioning */
+.feedback-input-dropdown {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+/* Base Select Styling */
+.feedback-input-dropdown select {
+    width: 100%;
+    padding: 14px 40px 14px 15px; /* Extra right padding for the arrow */
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #444;
+    background-color: #ffffff; /* Matches white inputs in screenshot */
+    border: none;
+    border-radius: 8px; /* Matches the rounded corners of your form */
+    appearance: none; /* Removes default browser arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+/* Custom Purple Arrow */
+.feedback-input-dropdown::after {
+    content: '\25BC'; /* Unicode down arrow */
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #7E57C2; /* Matches your theme purple */
+    font-size: 12px;
+}  
+
+/* Hover effect */
+.feedback-input-dropdown select:hover {
+    background-color: #fdfdfd;
+}
+
+ /* Container & Typography Refinement */
+.faq-container {
+    max-width: 850px; /* Slightly wider for better readability */
+    margin: 80px auto;
+    padding: 0 20px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.faq-title {
+    text-align: center;
+    color: #7E57C2;
+    margin-bottom: 50px;
+    font-size:35px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* The FAQ Card */
+.faq-item {
+
+    margin-bottom: 20px;
+    border-radius: 16px; /* Modern, softer corners */
+    border: 1px solid #eef0f2; /* Subtle border instead of heavy shadow */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+.faq-item {
+    color: white;
+    text-decoration: none;
+    border-radius: 16px; /* Matches the rounded style in your screenshot */
+    
+    /* 1. Expand the background size so it can move */
+   background:radial-gradient(circle at 30% 107%, #e0f6ff 0%, #97bfff 5%, #773acd 45%, #b2c4ff 60%, #b57df5ad 90%);
+   background-size: 400% 400%; 
+    
+    /* 2. Run the animation */
+    animation: gradientMove 5s ease infinite;
+    
+    /* 3. Shadow to match your screenshot style */
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.faq-item:hover {
+    transform: scale(1.05); /* Slight pop effect on hover */
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Hover & Active States */
+.faq-item:hover {
+    border-color: #d1c4e9; /* Soft purple border on hover */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 24px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2d3748;
+    text-align: left;
+    transition: color 0.2s ease;
+}
+
+.faq-question:hover {
+    color: #ffffff; /* Accent color on hover */
+}
+
+.faq-question.active {
+    color: #ffffff;
+    padding-bottom: 15px; /* Adjust spacing when open */
+}
+
+/* Smooth Answer Section */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background:linear-gradient(135deg, #5f4bd8, #9b8cf2);
+}
+.faq-answer p {
+    padding: 0 30px 25px 30px;
+    color: #ffffff;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    margin: 0;
+    font-style:oblique;
+}
+
+/* Icon Animation */
+.bi-chevron-down {
+    font-size: 1.2rem;
+    transition: transform 0.4s ease;
+    color: #a0aec0;
+}
+
+.faq-question.active .bi-chevron-down {
+    transform: rotate(180deg);
+    color: #7E57C2;
+}

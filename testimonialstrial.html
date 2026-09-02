@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials Display</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-dark: #2c4c4c; /* Dark teal from your UI */
+            --text-main: #333;
+            --text-muted: #777;
+            --gold: #fbc531;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #fff;
+            color: var(--text-main);
+        }
+
+        .testimonial-section {
+            max-width: 900px;
+            margin: 80px auto;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+
+        .dots-divider {
+            margin-bottom: 40px;
+        }
+
+        .dots-divider span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #333;
+            border-radius: 50%;
+            margin: 0 4px;
+        }
+
+        /* Slider Container */
+        .slider-wrapper {
+            position: relative;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .testimonial-card {
+            display: none; /* Hidden by default */
+            animation: fadeIn 0.6s ease;
+            max-width: 600px;
+        }
+
+        .testimonial-card.active {
+            display: block;
+        }
+
+        /* Image & Quote Styling */
+        .image-container {
+            position: relative;
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 30px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #f9f9f9;
+        }
+
+        .quote-badge {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            background: var(--primary-dark);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Text Content */
+        .message {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .stars {
+            color: var(--gold);
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .user-name {
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .user-role {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        /* Nav Buttons */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            font-size: 2rem;
+            color: #ccc;
+            cursor: pointer;
+            transition: 0.3s;
+            padding: 20px;
+            z-index: 10;
+        }
+
+        .nav-btn:hover { color: var(--primary-dark); }
+        .prev-btn { left: -50px; }
+        .next-btn { right: -50px; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .empty-state {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        .add-new {
+            margin-top: 40px;
+            display: inline-block;
+            text-decoration: none;
+            color: var(--primary-dark);
+            font-weight: bold;
+            border: 2px solid var(--primary-dark);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<section class="testimonial-section">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="dots-divider"><span></span><span></span><span></span></div>
+
+    <div class="slider-wrapper" id="sliderContainer">
+        </div>
+
+    <button class="nav-btn prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="nav-btn next-btn" onclick="moveSlide(1)">&#10095;</button>
+    
+    <br>
+    <a href="testimonialtrial222.html" class="add-new">+ Submit Your Own</a>
+</section>
+
+<script>
+    let currentIndex = 0;
+    let testimonialData = [];
+
+    function loadTestimonials() {
+        const container = document.getElementById('sliderContainer');
+        // PULLING DATA FROM YOUR SPECIFIC KEY
+        const stored = localStorage.getItem('pro_testimonials');
+        
+        if (!stored || JSON.parse(stored).length === 0) {
+            container.innerHTML = `<p class="empty-state">No testimonials yet. Be the first to share your experience!</p>`;
+            return;
+        }
+
+        testimonialData = JSON.parse(stored);
+
+        // Build HTML for each slide
+        container.innerHTML = testimonialData.map((item, index) => {
+            // Convert numeric rating to stars
+            const starString = "★".repeat(item.rating) + "☆".repeat(5 - item.rating);
+            
+            return `
+                <div class="testimonial-card ${index === 0 ? 'active' : ''}">
+                    <div class="image-container">
+                        <img src="${item.photo}" alt="${item.name}">
+                        <div class="quote-badge"><i class="fas fa-quote-left"></i></div>
+                    </div>
+                    <p class="message">"${item.message}"</p>
+                    <div class="stars">${starString}</div>
+                    <h3 class="user-name">${item.name}</h3>
+                    <p class="user-role">${item.role}</p>
+                </div>
+            `;
+        }).join('');
+    }
+
+    function moveSlide(step) {
+        const cards = document.querySelectorAll('.testimonial-card');
+        if (cards.length === 0) return;
+
+        cards[currentIndex].classList.remove('active');
+        
+        currentIndex = (currentIndex + step + cards.length) % cards.length;
+        
+        cards[currentIndex].classList.add('active');
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', loadTestimonials);
+</script>
+
+</body>
+</html>

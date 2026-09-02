@@ -1,0 +1,179 @@
+/* Position the parent list item */
+.navbar_list li.dropdown {
+    position: relative;
+}
+
+/* Style the hidden menu */
+.dropdown-menu {
+    display: none;             /* Hide by default */
+    position: absolute;
+    top: 100%;                 /* Push it exactly below the nav bar */
+    left: 0;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 4px;
+    z-index: 1000;             /* Ensure it stays above the cards */
+}
+
+/* Show the menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style the dropdown links */
+.dropdown-menu li a {
+    color: #333 !important;    /* Override nav bar colors */
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+    color: #a288d9 !important; /* Matches your card theme */
+}
+
+/* Optional: Add a small arrow icon tweak if you use Bootstrap Icons */
+.bi-chevron-down {
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+
+.dropbtn {
+  background-color: #3333;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  height: 46px;
+  width:140px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #034effbc;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.left img {
+    width: 340px;
+}
+
+.right h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.right p {
+    font-size: 18px;
+    color: #555;
+}
+
+.right h3 {
+    margin-top: 10px;
+}
+
+.list {
+    margin: 25px 0;
+}
+
+.list li {
+    list-style: none;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.list li::before {
+    content: "✔";
+    color: #7bb600;
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #0077ff;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #005fd1;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;             /* Increased gap for better look */
+  margin-top: 25px;
+  margin-left: -40px;    /* This pulls the buttons to the left */
+  justify-content: flex-start;
+  width: 120%;           /* Allows row to be wider than the text container */
+}
+
+.dbtn {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 18px;    /* Slimmer padding to help fit all 4 */
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 11px;       /* Slightly smaller text for long titles */
+  white-space: nowrap;
+  display: inline-block;
+}
+.dbtn {
+  /* ... existing styles ... */
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dbtn:hover {
+  background-color: #00769e;
+}

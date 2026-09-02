@@ -1,0 +1,232 @@
+
+/* Container adjustment for spacing */
+.slider-container {
+    display: flex;
+    flex-direction: column; /* Stack gallery and buttons vertically */
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+    perspective: 1000px; /* Adds 3D depth */
+    overflow: hidden;
+}
+
+.gallery {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Wider container for more space */
+    height: 350px;
+}
+
+.cards {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: absolute;
+    width: 220px;
+    height: 320px;
+    background: linear-gradient(135deg, #a288d9, #7b5fc2); /* Added a slight gradient */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1); /* Smoother "snap" animation */
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Central Active Card */
+.card.active {
+    z-index: 10;
+    transform: translateX(0) scale(1.1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+/* Spread them out more: increase translateX values */
+.card.next {
+    z-index: 5;
+    transform: translateX(140%) scale(0.85); /* Moved further right */
+    opacity: 0.7;
+    filter: blur(2px); /* Makes center stand out more */
+}
+
+.card.prev {
+    z-index: 5;
+    transform: translateX(-140%) scale(0.85); /* Moved further left */
+    opacity: 0.7;
+    filter: blur(2px);
+}
+
+/* Hidden cards */
+.card:not(.active):not(.next):not(.prev) {
+    opacity: 0;
+    transform: translateX(0) scale(0.5);
+}
+
+.nav-buttons {
+    margin-top: 40px;
+}
+
+.nav-buttons button {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background: #a288d9;
+}
+
+.nav-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #5f4bd8, #9b8cf2);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: .9;
+}
+
+/* SECTION */
+.section {
+    padding: 70px 10%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 50px;
+    color: #444;
+}
+
+/* TEAM */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+}
+
+.team-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    transition: .4s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.team-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.team-content {
+    padding: 20px;
+}
+
+.team-content h3 {
+    margin-bottom: 8px;
+}
+
+.team-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ABOUT */
+.about {
+    background: white;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.feature {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+    transition: .3s;
+}
+
+.feature:hover {
+    transform: translateY(-8px);
+}
+
+/* ANIMATION */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+@media(max-width:768px){
+    .hero h1 {font-size:32px;}
+    .section {padding:50px 6%;}
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Verification Desk — Journal Authenticity Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="journal-verifier style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <p class="eyebrow">A dossier, not a verdict from thin air</p>
+      <h1>The Verification Desk</h1>
+      <p class="tagline">Submit a journal's name and link. We cross-check it against ISSN and indexing
+        registries, examine the site itself, and return a probability breakdown across
+        predatory, hijacked, and cloned patterns — with the evidence shown, and a route
+        back to the genuine journal when one exists.</p>
+    </div>
+    <div class="masthead-rule"></div>
+  </header>
+
+  <main class="desk">
+
+    <section class="intake" id="intake-section">
+      <div class="intake-label">
+        <span class="intake-number">01</span>
+        <span>Submission</span>
+      </div>
+      <form id="verify-form" class="intake-form">
+        <label class="field">
+          <span class="field-label">Journal name</span>
+          <input type="text" id="journal_name" name="journal_name" placeholder="e.g. International Journal of Applied Sciences" required>
+        </label>
+        <label class="field">
+          <span class="field-label">Journal URL</span>
+          <input type="text" id="journal_url" name="journal_url" placeholder="https://the-journal-site.com" required>
+        </label>
+        <div class="field-row">
+          <label class="field field-inline">
+            <span class="field-label">API endpoint</span>
+            <input type="text" id="api_base" name="api_base" value="https://api.ugcapi.com">
+          </label>
+          <button type="submit" id="verify-btn" class="verify-btn">
+            <span class="verify-btn-label">Verify</span>
+            <span class="verify-btn-arrow">→</span>
+          </button>
+        </div>
+      </form>
+      <p class="intake-error" id="intake-error" hidden></p>
+    </section>
+
+    <section class="dossier" id="dossier-section" hidden>
+
+      <div class="dossier-header">
+        <div class="intake-label">
+          <span class="intake-number">02</span>
+          <span>Findings</span>
+        </div>
+        <h2 id="dossier-title">—</h2>
+        <p class="dossier-sub" id="dossier-sub">—</p>
+      </div>
+
+      <div class="stamp-wrap">
+        <div class="stamp" id="stamp">
+          <div class="stamp-ring">
+            <span class="stamp-text" id="stamp-text">CHECKED</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="meters" id="meters"></div>
+
+      <div class="original-link" id="original-link-block" hidden>
+        <span class="original-link-label">Genuine journal, per registry records</span>
+        <a href="#" id="original-link-href" target="_blank" rel="noopener"></a>
+        <span class="original-link-confidence" id="original-link-confidence"></span>
+      </div>
+
+      <div class="evidence-block">
+        <h3 class="section-heading">Evidence</h3>
+        <ol class="evidence-list" id="evidence-list"></ol>
+      </div>
+
+      <div class="sources-block">
+        <h3 class="section-heading">Sources checked</h3>
+        <ul class="sources-list" id="sources-list"></ul>
+      </div>
+
+      <div class="notes-block" id="notes-block">
+        <h3 class="section-heading">Notes</h3>
+        <ul class="notes-list" id="notes-list"></ul>
+      </div>
+
+    </section>
+
+    <section class="loading" id="loading-section" hidden>
+      <div class="loading-mark"></div>
+      <p id="loading-text">Reading the submitted page…</p>
+    </section>
+
+  </main>
+
+  <footer class="deskfoot">
+    <p>Heuristic assessment only — not a legal or definitive determination. Corroborate with
+      Cabells Predatory Reports, the ISSN Portal, and the publisher's own official journal list
+      before acting on high-stakes decisions.</p>
+  </footer>
+
+<script src="journal-verifier script.js"></script>
+</body>
+</html>

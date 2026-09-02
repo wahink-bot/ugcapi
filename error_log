@@ -1,0 +1,1160 @@
+[12-Feb-2026 06:30:40 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/registration.php on line 2
+[12-Feb-2026 06:30:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/registration.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/registration.php on line 2
+[12-Feb-2026 06:40:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 06:41:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 06:45:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 06:49:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 06:56:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 07:47:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 07:48:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 07:50:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 09:23:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 09:24:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 09:25:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 09:40:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 09:43:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 09:43:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 10:06:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 10:06:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 10:06:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 10:21:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 10:21:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 11:02:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 11:24:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 11:37:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 13:15:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 13:26:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 13:33:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 13:34:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 13:35:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 13:38:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 13:48:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[12-Feb-2026 14:34:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/login.php(3): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 04:54:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 04:54:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:11:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:12:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:12:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:13:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:15:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:18:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:24:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:36:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:50:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 05:55:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 06:05:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 06:18:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 06:18:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 06:57:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 06:57:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 06:59:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 07:04:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 09:29:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 09:45:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 09:45:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 09:48:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 09:49:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 09:50:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 09:53:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 10:07:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 10:07:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 10:14:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 11:09:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 11:47:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:02:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:02:38 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:02:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:02:42 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:02:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:02:48 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:02:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:03:18 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:03:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:03:25 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:03:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:05:40 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:05:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:07:28 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[13-Feb-2026 15:07:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[14-Feb-2026 02:37:30 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[14-Feb-2026 02:37:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: Name or service not known in /home/k6zrnncl6akt/public_html/db_config.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db_config.php(7): mysqli_connect()
+#1 /home/k6zrnncl6akt/public_html/registration.php(2): require_once('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db_config.php on line 7
+[14-Feb-2026 05:28:14 UTC] PHP Parse error:  syntax error, unexpected token "@" in /home/k6zrnncl6akt/public_html/db_config.php on line 4
+[14-Feb-2026 05:30:43 UTC] PHP Parse error:  syntax error, unexpected token "@" in /home/k6zrnncl6akt/public_html/db_config.php on line 4
+[14-Feb-2026 05:40:49 UTC] PHP Parse error:  syntax error, unexpected identifier "Duvasu_mathura" in /home/k6zrnncl6akt/public_html/db_config.php on line 4
+[14-Feb-2026 05:42:40 UTC] PHP Warning:  Undefined array key "name" in /home/k6zrnncl6akt/public_html/feedback.php on line 4
+[14-Feb-2026 05:42:40 UTC] PHP Warning:  Undefined array key "role" in /home/k6zrnncl6akt/public_html/feedback.php on line 5
+[14-Feb-2026 05:42:40 UTC] PHP Warning:  Undefined array key "message" in /home/k6zrnncl6akt/public_html/feedback.php on line 6
+[14-Feb-2026 05:48:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'bhardwajankit432@gmail.com' for key 'emailid' in /home/k6zrnncl6akt/public_html/registration.php:22
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/registration.php(22): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/registration.php on line 22
+[14-Feb-2026 05:52:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'bhardwajankit432@gmail.com' for key 'emailid' in /home/k6zrnncl6akt/public_html/registration.php:22
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/registration.php(22): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/registration.php on line 22
+[14-Feb-2026 05:57:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'bhardwajankit432@gmail.com' for key 'emailid' in /home/k6zrnncl6akt/public_html/registration.php:22
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/registration.php(22): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/registration.php on line 22
+[14-Feb-2026 06:00:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'bhardwajankit432@gmail.com' for key 'emailid' in /home/k6zrnncl6akt/public_html/registration.php:22
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/registration.php(22): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/registration.php on line 22
+[14-Feb-2026 09:17:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/db.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db.php(7): mysqli->__construct()
+#1 /home/k6zrnncl6akt/public_html/submit.php(2): include('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db.php on line 7
+[14-Feb-2026 09:17:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/db.php:7
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/db.php(7): mysqli->__construct()
+#1 /home/k6zrnncl6akt/public_html/submit.php(2): include('/home/k6zrnncl6...')
+#2 {main}
+  thrown in /home/k6zrnncl6akt/public_html/db.php on line 7
+[15-Feb-2026 09:42:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 09:43:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 09:43:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[15-Feb-2026 09:51:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 09:51:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 09:51:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 09:59:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 11:29:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 11:29:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 11:37:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:13:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:15:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:43:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:44:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:44:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:44:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:45:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:45:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:46:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[15-Feb-2026 14:46:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[16-Feb-2026 01:53:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[16-Feb-2026 02:24:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[16-Feb-2026 05:48:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[16-Feb-2026 06:59:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'sg2plzcpnl509096.prod.sin2.secureserver.net' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[19-Feb-2026 01:39:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[20-Feb-2026 14:39:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[22-Feb-2026 19:28:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[22-Feb-2026 19:47:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[24-Feb-2026 08:10:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'bhardwajankit432@gmail.com' for key 'emailid' in /home/k6zrnncl6akt/public_html/registration.php:22
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/registration.php(22): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/registration.php on line 22
+[24-Feb-2026 08:10:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'bhardwajankit432@gmail.com' for key 'emailid' in /home/k6zrnncl6akt/public_html/registration.php:22
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/registration.php(22): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/registration.php on line 22
+[26-Feb-2026 07:18:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[03-Mar-2026 00:02:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[05-Mar-2026 20:31:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[05-Mar-2026 20:53:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[07-Mar-2026 14:33:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[07-Mar-2026 21:55:34 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:55:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:55:36 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:55:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:55:38 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:55:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:56:29 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:56:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 3
+[07-Mar-2026 21:57:35 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[07-Mar-2026 21:57:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[08-Mar-2026 15:52:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[08-Mar-2026 17:44:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[10-Mar-2026 05:12:58 UTC] PHP Warning:  require_once(studentproconfig.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:12:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'studentproconfig.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:13:51 UTC] PHP Warning:  require_once(studentproconfig.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:13:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'studentproconfig.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:13:52 UTC] PHP Warning:  require_once(studentproconfig.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:13:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'studentproconfig.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:14:01 UTC] PHP Warning:  require_once(studentproconfig.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:14:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'studentproconfig.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:14:02 UTC] PHP Warning:  require_once(studentproconfig.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:14:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'studentproconfig.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:14:06 UTC] PHP Warning:  require_once(studentproconfig.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:14:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'studentproconfig.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:16:12 UTC] PHP Warning:  require_once(studentproconfig.php): Failed to open stream: No such file or directory in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:16:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'studentproconfig.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k6zrnncl6akt/public_html/studentproindex.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 5
+[10-Mar-2026 05:23:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDB() in /home/k6zrnncl6akt/public_html/studentproindex.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/k6zrnncl6akt/public_html/studentproindex.php on line 10
+[11-Mar-2026 18:33:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[11-Mar-2026 20:44:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[12-Mar-2026 05:52:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[12-Mar-2026 15:54:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[15-Mar-2026 18:01:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[16-Mar-2026 07:54:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[16-Mar-2026 16:14:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[18-Mar-2026 15:59:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[20-Mar-2026 10:01:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[20-Mar-2026 16:13:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[21-Mar-2026 21:25:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[21-Mar-2026 23:35:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[22-Mar-2026 14:58:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[23-Mar-2026 02:22:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[24-Mar-2026 13:16:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[25-Mar-2026 17:51:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[26-Mar-2026 05:38:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[29-Mar-2026 06:41:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[29-Mar-2026 12:04:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[02-Apr-2026 02:11:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[02-Apr-2026 06:22:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[02-Apr-2026 08:15:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[08-Apr-2026 03:29:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[08-Apr-2026 03:59:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[13-Apr-2026 12:24:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[20-Apr-2026 17:56:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[21-Apr-2026 20:25:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[27-Apr-2026 12:08:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[28-Apr-2026 14:07:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[29-Apr-2026 03:29:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[29-Apr-2026 03:56:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[08-May-2026 11:06:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[09-May-2026 09:15:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[09-May-2026 19:45:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[09-May-2026 20:50:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[10-May-2026 02:03:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[13-May-2026 09:23:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[19-May-2026 06:32:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[20-May-2026 00:02:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[20-May-2026 03:16:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[20-May-2026 03:45:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[22-May-2026 01:08:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[23-May-2026 18:27:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[24-May-2026 01:30:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[28-May-2026 05:16:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[28-May-2026 18:35:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[29-May-2026 18:45:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[29-May-2026 19:57:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[04-Jun-2026 09:43:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[05-Jun-2026 06:41:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[09-Jun-2026 09:41:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[09-Jun-2026 17:48:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[09-Jun-2026 20:46:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[10-Jun-2026 02:53:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[10-Jun-2026 03:35:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[17-Jun-2026 06:10:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[01-Jul-2026 02:53:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[01-Jul-2026 03:25:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[03-Jul-2026 08:43:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[03-Jul-2026 12:46:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[09-Jul-2026 08:36:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[10-Jul-2026 11:40:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[14-Jul-2026 19:41:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[14-Jul-2026 20:28:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[18-Jul-2026 06:16:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[18-Jul-2026 10:00:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[18-Jul-2026 14:23:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[22-Jul-2026 02:53:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[22-Jul-2026 03:24:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[24-Jul-2026 17:09:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[29-Jul-2026 08:55:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[29-Jul-2026 18:11:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[05-Aug-2026 23:46:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[07-Aug-2026 23:11:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[11-Aug-2026 13:41:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[12-Aug-2026 02:34:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[12-Aug-2026 03:09:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3
+[17-Aug-2026 22:36:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[28-Aug-2026 10:08:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[02-Sep-2026 02:31:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/save_contact.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/save_contact.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/save_contact.php on line 3
+[02-Sep-2026 02:56:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'Ankit'@'localhost' (using password: YES) in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php:3
+Stack trace:
+#0 /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php(3): mysqli->__construct()
+#1 {main}
+  thrown in /home/k6zrnncl6akt/public_html/mega_submit_bug_report.php on line 3

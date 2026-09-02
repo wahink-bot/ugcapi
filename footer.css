@@ -1,0 +1,358 @@
+
+
+        /* Footer Main Container */
+        .site-footer {
+            background-color: #000000; /* Pure Black Background */
+            color: #ffffff;
+            padding: 40px 0 20px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Footer Columns */
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+            margin-bottom: 20px;
+            padding-right: 20px;
+        }
+
+/* Container for the icons */
+.social-links {
+    display: flex;
+    gap: 12px;           /* This controls the "closeness" - adjust as needed */
+    align-items: center;
+    justify-content: flex-start; /* Aligns them to the left under the text */
+}
+
+/* Base style for all social SVG icons */
+.social-links svg {
+    width: 30px;         /* Standardized width */
+    height: 30px;        /* Standardized height */
+    padding: 8px;        /* Padding inside the circle/square */
+    transition: all 0.3s ease;
+    display: block;
+}
+
+/* Individual Icon Styling */
+.bi-bi-whatsapp {
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+}
+
+.bi-bi-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+    border-radius: 10px; /* Modern rounded square */
+}
+
+.bi-bi-facebook {
+    background-color: #1877f2;
+    color: white;
+    border-radius: 50%;
+}
+
+.bi-bi-youtube {
+    background-color: #FF0000;
+    color: white;
+    border-radius: 8px;
+}
+
+.bi-bi-linkedin {
+    background-color:#285AEB;
+    color:#fff;
+    border-radius: 8px;
+}
+
+/* Hover Effect for all */
+.social-links a:hover svg {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+    filter: brightness(1.1);
+}
+
+        /* Links Styling */
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }   
+         /* Headings */
+        .footer-column h3 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #333; /* Subtle underline */
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        .site-footer a {
+            color: #bbbbbb; /* Light gray for text */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .site-footer a:hover {
+            color: #ffffff; /* White on hover */
+            text-decoration: underline;
+        }
+
+        /* Copyright Area */
+        .footer-bottom {
+            background-color: #000;
+            border-top: 1px solid #333;
+            margin-top: 20px;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+            }
+            .footer-column {
+                margin-bottom: 30px;
+            }
+        }
+
+
+        /* Section Container */
+
+    .testimonial-track {
+    display: flex;
+    gap: 20px;
+    transition: transform .5s ease;
+}
+.testimonial-wrapper {
+    overflow: hidden;
+}
+
+    .testimonials-section {
+        background-color: #ffffff; 
+        color: #000000;
+        padding: 80px 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .section-header {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 50px;
+    }
+
+    .section-header h2 {
+        font-size: 36px;
+        margin-bottom:0px;
+        font-weight: 700;
+    }
+
+    .section-header p {
+        color: #bbbbbb;
+        font-size: 18px;
+    }
+
+    /* Grid Layout */
+    .testimonial-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto responsive columns */
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Individual Card Style */
+    .testimonial-card {
+        background-color: #aaaaaa; /* Dark Grey Card */
+        padding: 30px;
+        border-radius: 12px;
+        border: 1px solid #7f2b2b; /* Subtle border */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+    }
+
+    /* Hover Effect */
+    .testimonial-card:hover {
+        transform: translateY(-5px); /* Moves up slightly */
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        border-color: #000000;
+    }
+.testimonials-section {
+        background-color: #ffffff; 
+        color: #000000;
+        /* Changed from 80px 20px to 0 20px to remove top/bottom space */
+        padding: 0 20px; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .section-header {
+        text-align: center;
+        max-width: 800px;
+        /* Changed 50px bottom margin to 0 to remove space below the header */
+        margin: 0 auto 0px; 
+    }
+    .section-header h2 {
+    margin-top: 2px; /* Ensures no space above the title */
+    margin-bottom: 0; 
+}
+
+.section-header p {
+    margin-bottom: 0; /* Ensures no space below the description */
+}
+
+    /* Quote Icon decorative */
+    .quote-icon {
+        font-size: 40px;
+        color: #444;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-family: serif;
+    }
+
+    /* Star Ratings */
+    .stars {
+        color: #FFD700; /* Gold color */
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    /* The Comment Text */
+    .testimonial-text {
+        font-size: 16px;
+        line-height: 1.0;
+        color: #000000;
+        font-style: italic;
+        margin-bottom: 25px;
+    }
+
+    /* User Profile Area */
+    .user-profile {
+        display: flex;
+        align-items: center;
+    }
+
+    .user-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+        border: 2px solid #555;
+    }
+
+    .user-info h4 {
+        margin: 0;
+        font-size: 16px;
+        color: #322424;
+    }
+
+    .user-info span {
+        font-size: 13px;
+        color: #888;
+    }
+   
+
+    /* Container: The "window" you look through */
+.testimonial-slider-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 40px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* Track: The long row of cards */
+.testimonial-grid {
+    display: flex;
+    gap: 30px;
+    width: max-content; /* Vital: Keeps cards from shrinking */
+    will-change: transform; /* Optimizes for smooth motion */
+    animation: marquee 10s linear infinite;
+}
+
+/* Pause on hover for readability */
+.testimonial-grid:hover {
+    animation-play-state: paused;
+}
+
+/* Individual Card adjustment */
+.testimonial-card {
+    flex: 0 0 350px; /* Force cards to stay 350px wide */
+    white-space: normal; /* Allow text to wrap inside the card */
+}
+
+  .social-links {
+    display: flex;
+    align-items: center; /* Keeps them vertically aligned */
+    gap: 15px;           /* This creates the uniform spacing */
+}
+
+/* Ensure the anchors don't add weird behavior */
+.social-links a {
+    display: flex;
+    text-decoration: none;
+}
+
+/* The Magic: Smooth Loop */
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* We move exactly by the width of the original set */
+        /* This will be handled by our JS calculation below */
+        transform: translateX(var(--move-distance));
+    }
+}
+
+  .social-sidebar {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+        }
+ .social-icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .fb { background: #3b5998; }
+        .li { background: #0077b5; }
+        .ig { background: #e4405f; }
+        .yt { background: #cd201f; }
+        .wa { background: #25d366; }
+
+  @media (max-width: 992px) {
+            .dashboard-container { flex-direction: column; }
+            .sidebar { max-width: 100%; }
+            .social-sidebar { display: none; }
+        }
+
+

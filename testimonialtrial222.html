@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Feedback</title>
+    <style>
+        body {
+            background-color: #ffffff; /* Subtle background for contrast */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            --primary: #2d3436;
+            --accent: #00b894;
+            --gold: #fbc531;
+            
+            /* RESTORED SLIM WIDTH */
+            width: 90%;
+            max-width: 400px; 
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            font-family: 'Georgia', serif;
+            text-align: center; /* Centers text and inline elements */
+        }
+
+        .form-container h3 { 
+            color: var(--primary); 
+            margin-bottom: 25px; 
+        }
+
+        /* Star Rating Styling */
+        .rating-wrapper {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .rating-wrapper input { display: none; }
+        .rating-wrapper label {
+            font-size: 2rem;
+            color: #dfe6e9;
+            cursor: pointer;
+            transition: color 0.2s;
+            padding: 0 5px;
+        }
+        .rating-wrapper label:hover,
+        .rating-wrapper label:hover ~ label,
+        .rating-wrapper input:checked ~ label {
+            color: var(--gold);
+        }
+
+        /* Inputs & Textarea */
+        .form-container input:not([type="radio"]):not(.hp-field), 
+        .form-container textarea {
+            width: 100%; /* Spans the container width */
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+
+        /* Profile Photo Label */
+        .form-container .photo-label {
+            font-size: 0.85rem;
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        /* Submit Button */
+        .form-container .submit-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 14px;
+            width: 100%;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 6px;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        .form-container .submit-btn:hover { 
+            background: #000; 
+            transform: translateY(-2px);
+        }
+
+        .back-link { 
+            display: block; 
+            margin-top: 20px; 
+            color: #777; 
+            text-decoration: none; 
+            font-size: 0.85rem; 
+        }
+
+        .hp-field { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h3>Share Your Experience</h3>
+    <form id="testimonialForm">
+        <input type="text" id="hpField" class="hp-field" tabindex="-1" autocomplete="off"> 
+        
+        <div class="rating-wrapper">
+            <input type="radio" name="rating" id="star5" value="5"><label for="star5">★</label>
+            <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+            <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+            <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+            <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+        </div>
+
+        <input type="text" id="userName" placeholder="Full Name" required>
+        <input type="text" id="userRole" placeholder="Job Title" required>
+        <textarea id="userMessage" placeholder="Your experience..." rows="4" required></textarea>
+        
+        <label class="photo-label">Upload Profile Photo:</label>
+        <input type="file" id="userPhoto" accept="image/*" required>
+        
+        <button type="submit" class="submit-btn">Post Testimonial</button>
+    </form>
+    <a href="testimonialstrial.html" class="back-link">← Back to Testimonials</a>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('testimonialForm');
+        
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // 1. Honeypot check for bots
+            if (document.getElementById('hpField').value !== "") return;
+
+            // 2. STAR VALIDATION: Check if a rating is selected
+            const selectedRating = document.querySelector('input[name="rating"]:checked');
+            
+            if (!selectedRating) {
+                // This is the popup you requested
+                alert("Please select a star rating! Your feedback is important to us.");
+                return; // Stops the function here so nothing is saved
+            }
+
+            const photoFile = document.getElementById('userPhoto').files[0];
+            
+            // Define the saving process in a reusable function
+            // This allows it to work with OR without a photo
+            const finalizeSubmission = (imageData) => {
+                const newEntry = {
+                    name: document.getElementById('userName').value,
+                    role: document.getElementById('userRole').value,
+                    message: document.getElementById('userMessage').value,
+                    rating: parseInt(selectedRating.value), // Convert to number for proper comparison
+                    photo: imageData || "https://i.pravatar.cc/180?u=guest"
+                };
+
+                let testimonials = JSON.parse(localStorage.getItem('pro_testimonials')) || [];
+                testimonials.unshift(newEntry);
+                
+                try {
+                    localStorage.setItem('pro_testimonials', JSON.stringify(testimonials));
+                    alert("Testimonial posted successfully!");
+                    window.location.href = "testimonialstrial.html";
+                } catch (error) {
+                    alert("The photo file is too large for the browser to save. Please try a smaller image.");
+                }
+            };
+
+            // 3. Image Handling Logic
+            if (photoFile) {
+                const reader = new FileReader();
+                reader.onload = (event) => finalizeSubmission(event.target.result);
+                reader.readAsDataURL(photoFile);
+            } else {
+                // If user skipped photo, we still save the text and stars
+                finalizeSubmission(null);
+            }
+        });
+    });
+</script>
+</body>
+</html>
