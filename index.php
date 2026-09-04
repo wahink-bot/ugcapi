@@ -1,3 +1,16 @@
+<?php
+require_once 'db_config.php';
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+// Handle dismissing the modal
+if (isset($_POST['dismiss_google_modal'])) {
+    $_SESSION['google_modal_dismissed'] = true;
+    echo json_encode(['success' => true]);
+    exit;
+}
+$show_google_modal = !isset($_SESSION['user_id']) && empty($_SESSION['google_modal_dismissed']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -777,7 +790,7 @@
 
         <div class="nav-links" id="navLinks">
             <ul class="navbar_list">
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="About.html">ABOUT US</a></li>
                 <li class="dropdown">
                     <a href="#">API Calculator</a>
@@ -1163,7 +1176,7 @@ document.querySelector('.slider-wrapper').addEventListener('mouseenter', () => {
     <div class="research-content">
         <h2>Journal Link Verification</h2>
         <p>Verifies the authenticity of Journals</p>
-        <a href="journal-verifier index.html" class="research-btn" target="_blank">
+        <a href="journal-verifier index.php" class="research-btn" target="_blank">
             <span>📄</span>Journal Verify
            
         </a>
@@ -1345,5 +1358,46 @@ document.querySelector('.slider-wrapper').addEventListener('mouseenter', () => {
     });
 </script>
 
+<?php if ($show_google_modal): ?>
+<div id="googleSignInModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;">
+    <div style="background:#fff; padding:30px; border-radius:10px; text-align:center; position:relative; max-width:400px; width:90%; box-shadow:0 15px 35px rgba(0,0,0,0.3);">
+        <button id="closeGoogleModal" style="position:absolute; top:10px; right:15px; background:none; border:none; font-size:24px; cursor:pointer; color:#333; padding:0; line-height:1; width:30px; height:30px;">&times;</button>
+        <h3 style="margin-bottom:15px; color:#333;">Welcome!</h3>
+        <p style="color:#666; margin-bottom:20px;">Sign in to access personalized features and calculators.</p>
+        
+        <div style="display:flex; justify-content:center; margin-bottom:15px;">
+            <div class="g_id_signin"
+                 data-type="standard"
+                 data-shape="rectangular"
+                 data-theme="outline"
+                 data-text="continue_with"
+                 data-size="large"
+                 data-logo_alignment="left">
+            </div>
+        </div>
+        
+        <button id="maybeLaterBtn" style="background:none; border:none; color:#666; text-decoration:underline; cursor:pointer; font-size:14px; width:auto; padding:5px; margin:0 auto; display:block;">Maybe later</button>
+    </div>
+</div>
+<?php include_once 'google_auth_scripts.php'; ?>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            document.getElementById('googleSignInModal').style.display = 'flex';
+        }, 3000);
+
+        function dismissModal() {
+            document.getElementById('googleSignInModal').style.display = 'none';
+            // Set session flag via fetch
+            const fd = new FormData();
+            fd.append('dismiss_google_modal', '1');
+            fetch('index.php', { method: 'POST', body: fd });
+        }
+
+        document.getElementById('closeGoogleModal').addEventListener('click', dismissModal);
+        document.getElementById('maybeLaterBtn').addEventListener('click', dismissModal);
+    });
+</script>
+<?php endif; ?>
 </body>
 </html>

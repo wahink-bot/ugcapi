@@ -1,0 +1,4 @@
+.env
+vendor/
+composer.lock
+backup_before_auth_migration.sql
